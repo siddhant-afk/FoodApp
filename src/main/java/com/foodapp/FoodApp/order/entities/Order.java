@@ -4,6 +4,7 @@ package com.foodapp.FoodApp.order.entities;
 import com.foodapp.FoodApp.auth_users.entities.User;
 import com.foodapp.FoodApp.enums.OrderStatus;
 import com.foodapp.FoodApp.enums.PaymentStatus;
+import com.foodapp.FoodApp.payments.entities.Payment;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

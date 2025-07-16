@@ -1,6 +1,11 @@
 package com.foodapp.FoodApp.auth_users.entities;
 
 
+import com.foodapp.FoodApp.cart.entities.Cart;
+import com.foodapp.FoodApp.order.entities.Order;
+import com.foodapp.FoodApp.payments.entities.Payment;
+import com.foodapp.FoodApp.review.entities.Review;
+import com.foodapp.FoodApp.role.entities.Role;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
@@ -47,10 +52,10 @@ public class User {
     private List<Order> orders;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Review> orders;
+    private List<Review> reviews;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Payment> orders;
+    private List<Payment> payments;
 
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Cart cart;

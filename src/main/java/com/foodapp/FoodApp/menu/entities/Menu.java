@@ -2,6 +2,8 @@ package com.foodapp.FoodApp.menu.entities;
 
 
 import com.foodapp.FoodApp.category.entities.Category;
+import com.foodapp.FoodApp.order.entities.OrderItem;
+import com.foodapp.FoodApp.review.entities.Review;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
