@@ -17,7 +17,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 //@RequiredArgsConstructor
 public class FoodAppApplication {
 
-//	private final NotificationService notificationService;
+//we
 
 	public static void main(String[] args) {
 		SpringApplication.run(FoodAppApplication.class, args);
