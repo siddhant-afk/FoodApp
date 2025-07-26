@@ -28,6 +28,8 @@ public class MenuDTO {
     @Positive(message = "Price must be positive")
     private BigDecimal price;
 
+    private String imageUrl;
+
     @NotNull(message = "Category ID is required")
     private Long categoryId;
 
